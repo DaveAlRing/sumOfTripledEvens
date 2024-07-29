@@ -18,3 +18,6 @@ console.log(filteredArr);
 
 let multiArr = filteredArr.map(multBythree);
 console.log(multiArr);
+
+let reducedArr = multiArr.reduce(addTotal);
+console.log(reducedArr);
